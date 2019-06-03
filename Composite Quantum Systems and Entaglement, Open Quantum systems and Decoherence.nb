@@ -1,0 +1,111 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      3942,        103]
+NotebookOptionsPosition[      3554,         89]
+NotebookOutlinePosition[      3897,        104]
+CellTagsIndexPosition[      3854,        101]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[TextData[{
+ StyleBox["Composite Quantum Systems and Entanglement, Open Quantum Systems \
+and Decoherence",
+  FontSize->18,
+  FontWeight->"Bold"],
+ "\n",
+ StyleBox["Alessandro",
+  IgnoreSpellCheck->True,
+  FontSize->16],
+ StyleBox[" S. Santana",
+  FontSize->16],
+ "\n\n",
+ StyleBox["Author\[CloseCurlyQuote]s notes:",
+  FontSlant->"Italic"],
+ "\nThis work was inspired by A. F. R. de Toledo ",
+ StyleBox["Piza",
+  IgnoreSpellCheck->True],
+ " lectures notes on ",
+ StyleBox["II School of Theoretical Physics",
+  FontSlant->"Italic"],
+ " on IFUSP, 2009. I kept pretty much the same contents on these notes with a \
+few additional recent topics that are relevant. Also, these notes were made \
+using the Wolfram Mathematica 11.3 with a few addons, so I will keep the all \
+the codes behind the calculation.\n\nAugust 2018\n\n",
+ StyleBox["Contents",
+  FontWeight->"Bold"],
+ "\n1. Composite systems in QM and entanglement;\n2. Measure of entanglement \
+in pure states;\n3. Reality of entanglement;\n4. Composite systems in mixture \
+states and the environment as a third subsystem;\n5. Quantum systems \
+monitored by a environment;\n6. Effects of a environment without the \
+environment: master equations;\n7. Sudden death of entanglement due to \
+external observation;\n8. Steady-state Entanglement enhanced by a dissipative \
+ancilla;\nBibliography"
+}], "Text",
+ CellChangeTimes->{{3.7431519738095474`*^9, 3.743152046640381*^9}, {
+  3.7431520855812817`*^9, 3.74315249692996*^9}, {3.743152528394868*^9, 
+  3.743152540833854*^9}, {3.743152589040333*^9, 3.743152646186345*^9}, {
+  3.7431526774522843`*^9, 3.7431527218662424`*^9}, {3.7431534680295115`*^9, 
+  3.7431534730275693`*^9}, {3.743153679264344*^9, 3.743153689765303*^9}, {
+  3.7431538056631913`*^9, 3.743153895169114*^9}, {3.743154259517337*^9, 
+  3.743154350347232*^9}, {3.7431543987371593`*^9, 3.7431544621131606`*^9}, {
+  3.7431545187073383`*^9, 3.7431545217593393`*^9}, {3.7431549385163593`*^9, 
+  3.7431549842984433`*^9}},
+ TextAlignment->Left,
+ TextJustification->1,ExpressionUUID->"0eccad05-1cd4-4b5c-9e44-f7c752b8e93e"],
+
+Cell[TextData[{
+ StyleBox["1. Composite systems in QM and entanglement",
+  FontSize->18,
+  FontWeight->"Bold"],
+ "\n\n",
+ StyleBox["1.1. Systems of a single particle",
+  FontWeight->"Bold"],
+ "\n\tQuantum systems are represented by unitary vectors denoted by kets |\
+\[Psi]\[RightAngleBracket] of\n\t\n\t\n\t\n",
+ StyleBox["1.2 Composite systems",
+  FontWeight->"Bold"],
+ "\n",
+ StyleBox["1.3 Example of Entanglement ",
+  FontWeight->"Bold"]
+}], "Text",
+ CellChangeTimes->{{3.743152751844182*^9, 3.74315291502903*^9}, {
+   3.7431529669720454`*^9, 3.7431529902769966`*^9}, {3.743153044947906*^9, 
+   3.743153120900835*^9}, {3.7431534274206114`*^9, 3.7431534369175425`*^9}, {
+   3.743153502888478*^9, 3.7431535373484917`*^9}, {3.743153587345402*^9, 
+   3.743153595139394*^9}, 3.743154062622949*^9, {3.743154207361337*^9, 
+   3.7431542080723734`*^9}},ExpressionUUID->"f50b6c47-d385-4adb-a188-\
+bc86e3e4d035"]
+},
+WindowSize->{887, 572},
+WindowMargins->{{152, Automatic}, {47, Automatic}},
+FrontEndVersion->"11.3 for Microsoft Windows (64-bit) (March 6, 2018)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 2084, 44, 457, "Text",ExpressionUUID->"0eccad05-1cd4-4b5c-9e44-f7c752b8e93e"],
+Cell[2645, 66, 905, 21, 214, "Text",ExpressionUUID->"f50b6c47-d385-4adb-a188-bc86e3e4d035"]
+}
+]
+*)
+
